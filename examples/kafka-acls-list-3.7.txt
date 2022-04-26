@@ -1,0 +1,14 @@
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=*, patternType=LITERAL)`: 
+ 	(principal=User:mallory, host=*, operation=ALL, permissionType=DENY) 
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=*, patternType=LITERAL)`: 
+ 	(principal=User:*, host=*, operation=DESCRIBE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:ops, host=*, operation=CLUSTER_ACTION, permissionType=ALLOW)
+	(principal=User:ops, host=*, operation=DESCRIBE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=orders, patternType=LITERAL)`: 
+ 	(principal=User:alice, host=*, operation=READ, permissionType=ALLOW)
+	(principal=User:mallory, host=*, operation=READ, permissionType=ALLOW) 
+

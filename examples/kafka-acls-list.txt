@@ -1,0 +1,35 @@
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=orders, patternType=LITERAL)`: 
+ 	(principal=User:alice, host=*, operation=DESCRIBE, permissionType=ALLOW)
+	(principal=User:alice, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=analytics.clicks, patternType=LITERAL)`: 
+ 	(principal=User:carol, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=billing-, patternType=PREFIXED)`: 
+ 	(principal=User:svc-billing, host=*, operation=WRITE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=old-topic, patternType=LITERAL)`: 
+ 	(principal=User:legacy, host=10.0.0.5, operation=WRITE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=orders-app, patternType=LITERAL)`: 
+ 	(principal=User:alice, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=payments, patternType=LITERAL)`: 
+ 	(principal=User:bob, host=*, operation=READ, permissionType=DENY)
+	(principal=User:bob, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TRANSACTIONAL_ID, name=*, patternType=LITERAL)`: 
+ 	(principal=User:txn-app, host=*, operation=WRITE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:ops, host=*, operation=ALTER, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=*, patternType=LITERAL)`: 
+ 	(principal=User:etl, host=*, operation=ALL, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=analytics, patternType=PREFIXED)`: 
+ 	(principal=User:carol, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=public-events, patternType=LITERAL)`: 
+ 	(principal=User:*, host=*, operation=READ, permissionType=ALLOW) 
+

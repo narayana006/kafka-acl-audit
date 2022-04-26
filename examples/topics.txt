@@ -1,0 +1,7 @@
+# Topics that exist on the cluster (one per line)
+orders
+payments
+public-events
+billing-invoices
+analytics.clicks
+analytics.sessions

@@ -1,0 +1,12 @@
+[
+  {"resourceType": "TOPIC", "name": "orders", "patternType": "LITERAL",
+   "principal": "User:orders-api", "host": "*", "operation": "WRITE", "permissionType": "ALLOW"},
+  {"resourceType": "TOPIC", "name": "orders", "patternType": "LITERAL",
+   "principal": "User:orders-api", "host": "*", "operation": "WRITE", "permissionType": "ALLOW"},
+  {"resourceType": "TOPIC", "name": "orders", "patternType": "LITERAL",
+   "principal": "User:orders-api", "host": "*", "operation": "DESCRIBE", "permissionType": "ALLOW"},
+  {"resourceType": "GROUP", "name": "*", "patternType": "LITERAL",
+   "principal": "User:*", "host": "*", "operation": "READ", "permissionType": "ALLOW"},
+  {"resourceType": "TOPIC", "name": "a", "patternType": "PREFIXED",
+   "principal": "User:reporting", "host": "*", "operation": "READ", "permissionType": "ALLOW"}
+]
